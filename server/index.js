@@ -81,7 +81,7 @@ async function initializeFlights() {
   }
 }
 
-// Initialize flights when server starts
+
 initializeFlights();
 
 // Routes
@@ -303,7 +303,7 @@ app.get('/api/seed/flights', async (req, res) => {
   }
 });
 
-// Start server
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
   console.log(`Health check: http://localhost:${PORT}/api/health`);
