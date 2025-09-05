@@ -210,7 +210,7 @@ app.get('/api/bookings', async (req, res) => {
   }
 });
 
-// Add more sample flight listings (idempotent via upsert on flightNumber)
+
 app.get('/api/seed/flights', async (req, res) => {
   try {
     const extraFlights = [
